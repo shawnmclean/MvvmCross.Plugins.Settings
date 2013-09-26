@@ -1,0 +1,2 @@
+Mvx.Plugins.Settings
+====================

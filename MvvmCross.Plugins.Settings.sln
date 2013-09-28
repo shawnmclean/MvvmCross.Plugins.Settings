@@ -11,6 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross.Plugins.Settings"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross.Plugins.Settings.WindowsPhone", "src\MvvmCross.Plugins.Settings.WindowsPhone\MvvmCross.Plugins.Settings.WindowsPhone.csproj", "{20010371-BA30-4C38-829C-CB3DCE72A184}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3BE88A49-68E5-4E3A-95FE-DE43783419F9}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		Rakefile.rb = Rakefile.rb
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross.Plugins.Settings.Tests", "test\MvvmCross.Plugins.Settings.Tests\MvvmCross.Plugins.Settings.Tests.csproj", "{5463A8F6-152C-40FE-B080-DFDF8345FA67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +49,14 @@ Global
 		{20010371-BA30-4C38-829C-CB3DCE72A184}.Release|ARM.Build.0 = Release|ARM
 		{20010371-BA30-4C38-829C-CB3DCE72A184}.Release|x86.ActiveCfg = Release|x86
 		{20010371-BA30-4C38-829C-CB3DCE72A184}.Release|x86.Build.0 = Release|x86
+		{5463A8F6-152C-40FE-B080-DFDF8345FA67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5463A8F6-152C-40FE-B080-DFDF8345FA67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5463A8F6-152C-40FE-B080-DFDF8345FA67}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{5463A8F6-152C-40FE-B080-DFDF8345FA67}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5463A8F6-152C-40FE-B080-DFDF8345FA67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5463A8F6-152C-40FE-B080-DFDF8345FA67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5463A8F6-152C-40FE-B080-DFDF8345FA67}.Release|ARM.ActiveCfg = Release|Any CPU
+		{5463A8F6-152C-40FE-B080-DFDF8345FA67}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +64,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D5057141-48FF-4738-959F-74A49B5FA504} = {A551F661-EDC1-4CCD-9756-3CCE419ADA4E}
 		{20010371-BA30-4C38-829C-CB3DCE72A184} = {A551F661-EDC1-4CCD-9756-3CCE419ADA4E}
+		{5463A8F6-152C-40FE-B080-DFDF8345FA67} = {2FC0B017-F3EC-4F47-95C8-AFFCCE9D0B85}
 	EndGlobalSection
 EndGlobal

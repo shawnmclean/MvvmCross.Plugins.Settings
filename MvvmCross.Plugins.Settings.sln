@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A551F661-EDC1-4CCD-9756-3CCE419ADA4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2FC0B017-F3EC-4F47-95C8-AFFCCE9D0B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross.Plugins.Settings", "src\MvvmCross.Plugins.Settings\MvvmCross.Plugins.Settings.csproj", "{D5057141-48FF-4738-959F-74A49B5FA504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross.Plugins.Settings.WindowsPhone", "src\MvvmCross.Plugins.Settings.WindowsPhone\MvvmCross.Plugins.Settings.WindowsPhone.csproj", "{173B2222-1502-417D-A9E8-41491A148571}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5057141-48FF-4738-959F-74A49B5FA504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5057141-48FF-4738-959F-74A49B5FA504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5057141-48FF-4738-959F-74A49B5FA504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5057141-48FF-4738-959F-74A49B5FA504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{173B2222-1502-417D-A9E8-41491A148571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173B2222-1502-417D-A9E8-41491A148571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173B2222-1502-417D-A9E8-41491A148571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173B2222-1502-417D-A9E8-41491A148571}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5057141-48FF-4738-959F-74A49B5FA504} = {A551F661-EDC1-4CCD-9756-3CCE419ADA4E}
+		{173B2222-1502-417D-A9E8-41491A148571} = {A551F661-EDC1-4CCD-9756-3CCE419ADA4E}
+	EndGlobalSection
+EndGlobal

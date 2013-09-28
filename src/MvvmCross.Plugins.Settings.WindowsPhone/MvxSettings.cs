@@ -82,33 +82,26 @@ namespace MvvmCross.Plugins.Settings.WindowsPhone
         /// <param name="key">
         /// The key.
         /// </param>
-        /// <param name="defaultValue">
-        /// The default value.
-        /// </param>
         /// <typeparam name="T">
         /// can be any comparable type
         /// </typeparam>
         /// <returns>
         /// The <see cref="T"/>.
         /// </returns>
-        public T GetValueOrDefault<T>(string key, T defaultValue) where T : IComparable
+        public T GetValue<T>(string key) where T : class
         {
-            T value;
             lock (locker)
             {
                 // If the key exists, retrieve the value.
                 if (Settings.Contains(key))
                 {
-                    value = (T)Settings[key];
+                    return (T)Settings[key];
                 }
                 else
                 {
-                    // Otherwise, use the default value.
-                    value = defaultValue;
+                    return null;
                 }
             }
-
-            return value;
         }
 
         /// <summary>

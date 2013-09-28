@@ -41,13 +41,10 @@ namespace MvvmCross.Plugins.Settings
         /// <param name="key">
         /// Key for settings
         /// </param>
-        /// <param name="defaultValue">
-        /// default value if not set
-        /// </param>
         /// <returns>
         /// Value or default
         /// </returns>
-        T GetValueOrDefault<T>(string key, T defaultValue) where T : IComparable;
+        T GetValue<T>(string key) where T: class;
 
         /// <summary>
         ///     Saves the changes.

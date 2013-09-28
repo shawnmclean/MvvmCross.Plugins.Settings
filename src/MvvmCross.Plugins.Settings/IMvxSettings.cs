@@ -1,6 +1,6 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="IMvxSettings.cs" company="">
-//   
+//
 // </copyright>
 // <summary>
 //   The MvxSettings interface.
@@ -54,6 +54,6 @@ namespace MvvmCross.Plugins.Settings
         /// </summary>
         void Save();
 
-        #endregion
+        #endregion Public Methods and Operators
     }
 }

@@ -9,28 +9,44 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2FC0B017-F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross.Plugins.Settings", "src\MvvmCross.Plugins.Settings\MvvmCross.Plugins.Settings.csproj", "{D5057141-48FF-4738-959F-74A49B5FA504}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross.Plugins.Settings.WindowsPhone", "src\MvvmCross.Plugins.Settings.WindowsPhone\MvvmCross.Plugins.Settings.WindowsPhone.csproj", "{173B2222-1502-417D-A9E8-41491A148571}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross.Plugins.Settings.WindowsPhone", "src\MvvmCross.Plugins.Settings.WindowsPhone\MvvmCross.Plugins.Settings.WindowsPhone.csproj", "{20010371-BA30-4C38-829C-CB3DCE72A184}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D5057141-48FF-4738-959F-74A49B5FA504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D5057141-48FF-4738-959F-74A49B5FA504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5057141-48FF-4738-959F-74A49B5FA504}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{D5057141-48FF-4738-959F-74A49B5FA504}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{D5057141-48FF-4738-959F-74A49B5FA504}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5057141-48FF-4738-959F-74A49B5FA504}.Release|Any CPU.Build.0 = Release|Any CPU
-		{173B2222-1502-417D-A9E8-41491A148571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{173B2222-1502-417D-A9E8-41491A148571}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{173B2222-1502-417D-A9E8-41491A148571}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{173B2222-1502-417D-A9E8-41491A148571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5057141-48FF-4738-959F-74A49B5FA504}.Release|ARM.ActiveCfg = Release|Any CPU
+		{D5057141-48FF-4738-959F-74A49B5FA504}.Release|x86.ActiveCfg = Release|Any CPU
+		{20010371-BA30-4C38-829C-CB3DCE72A184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20010371-BA30-4C38-829C-CB3DCE72A184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20010371-BA30-4C38-829C-CB3DCE72A184}.Debug|ARM.ActiveCfg = Debug|ARM
+		{20010371-BA30-4C38-829C-CB3DCE72A184}.Debug|ARM.Build.0 = Debug|ARM
+		{20010371-BA30-4C38-829C-CB3DCE72A184}.Debug|x86.ActiveCfg = Debug|x86
+		{20010371-BA30-4C38-829C-CB3DCE72A184}.Debug|x86.Build.0 = Debug|x86
+		{20010371-BA30-4C38-829C-CB3DCE72A184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20010371-BA30-4C38-829C-CB3DCE72A184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20010371-BA30-4C38-829C-CB3DCE72A184}.Release|ARM.ActiveCfg = Release|ARM
+		{20010371-BA30-4C38-829C-CB3DCE72A184}.Release|ARM.Build.0 = Release|ARM
+		{20010371-BA30-4C38-829C-CB3DCE72A184}.Release|x86.ActiveCfg = Release|x86
+		{20010371-BA30-4C38-829C-CB3DCE72A184}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D5057141-48FF-4738-959F-74A49B5FA504} = {A551F661-EDC1-4CCD-9756-3CCE419ADA4E}
-		{173B2222-1502-417D-A9E8-41491A148571} = {A551F661-EDC1-4CCD-9756-3CCE419ADA4E}
+		{20010371-BA30-4C38-829C-CB3DCE72A184} = {A551F661-EDC1-4CCD-9756-3CCE419ADA4E}
 	EndGlobalSection
 EndGlobal
